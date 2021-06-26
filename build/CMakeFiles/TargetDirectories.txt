@@ -1,0 +1,3 @@
+/home/doman/Desktop/Software/Machinelearning/build/CMakeFiles/rebuild_cache.dir
+/home/doman/Desktop/Software/Machinelearning/build/CMakeFiles/mlpack_sample.dir
+/home/doman/Desktop/Software/Machinelearning/build/CMakeFiles/edit_cache.dir

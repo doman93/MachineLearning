@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/mlpack_sample.dir/src/main.cpp.o -o mlpack_sample  -Wl,-rpath,/usr/local/lib /usr/local/lib/libmlpack.so 
