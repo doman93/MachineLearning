@@ -6,37 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../include/NeuralNetwork.hpp
-eigen3/Eigen/Eigen
+/home/doman/MachineLearning/src/mlpack_sample.cpp
+mlpack/core.hpp
 -
-iostream
--
-vector
--
-chrono
--
-future
--
-iostream
--
-thread
--
-functional
--
-memory
--
-string
--
-fstream
--
-vector
--
-cmath
--
-sstream
--
-
-/home/doman/Desktop/Software/Machinelearning/src/main.cpp
-NeuralNetwork.hpp
-/home/doman/Desktop/Software/Machinelearning/src/NeuralNetwork.hpp
 

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/NeuralNetwork.hpp
+eigen3/Eigen/Eigen
+-
+iostream
+-
+vector
+-
+chrono
+-
+future
+-
+iostream
+-
+thread
+-
+functional
+-
+memory
+-
+string
+-
+fstream
+-
+vector
+-
+cmath
+-
+sstream
+-
+
+/home/doman/MachineLearning/src/Geeks_ML_code.cpp
+NeuralNetwork.hpp
+/home/doman/MachineLearning/src/NeuralNetwork.hpp
+

@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/mlpack_sample.dir/src/main.cpp.o -o mlpack_sample  -Wl,-rpath,/usr/local/lib /usr/local/lib/libmlpack.so 
+/usr/bin/c++ CMakeFiles/mlpack_sample.dir/src/mlpack_sample.cpp.o -o mlpack_sample  -Wl,-rpath,/usr/local/lib /usr/local/lib/libmlpack.so /usr/lib/x86_64-linux-gnu/libarmadillo.so 

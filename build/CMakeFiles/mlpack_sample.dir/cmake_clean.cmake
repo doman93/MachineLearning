@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mlpack_sample.dir/src/main.cpp.o"
+  "CMakeFiles/mlpack_sample.dir/src/mlpack_sample.cpp.o"
   "mlpack_sample"
   "mlpack_sample.pdb"
 )

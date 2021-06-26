@@ -1,4 +1,4 @@
-# Install script for directory: /home/doman/Desktop/Software/Machinelearning
+# Install script for directory: /home/doman/MachineLearning
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/doman/Desktop/Software/Machinelearning/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/doman/MachineLearning/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

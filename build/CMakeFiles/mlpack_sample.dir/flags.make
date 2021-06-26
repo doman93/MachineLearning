@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/doman/Desktop/Software/Machinelearning/include
+CXX_INCLUDES = -I/home/doman/MachineLearning/include -I/usr/local/include/eigen3 -I/usr/include/eigen3/eigen3 -I/usr/include/OGRE -I/usr/local/include/OGRE -I/usr/local/include/OGRE/Paging
 
 CXX_FLAGS =   -Wall -Wextra -std=gnu++17
 

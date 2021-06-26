@@ -1,3 +1,4 @@
-/home/doman/Desktop/Software/Machinelearning/build/CMakeFiles/rebuild_cache.dir
-/home/doman/Desktop/Software/Machinelearning/build/CMakeFiles/mlpack_sample.dir
-/home/doman/Desktop/Software/Machinelearning/build/CMakeFiles/edit_cache.dir
+/home/doman/MachineLearning/build/CMakeFiles/edit_cache.dir
+/home/doman/MachineLearning/build/CMakeFiles/Geeks_ML_code.dir
+/home/doman/MachineLearning/build/CMakeFiles/rebuild_cache.dir
+/home/doman/MachineLearning/build/CMakeFiles/mlpack_sample.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Geeks_ML_code.dir/src/Geeks_ML_code.cpp.o -o Geeks_ML_code  -Wl,-rpath,/usr/local/lib /usr/local/lib/libmlpack.so 

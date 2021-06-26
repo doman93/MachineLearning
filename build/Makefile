@@ -67,24 +67,13 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/doman/Desktop/Software/Machinelearning
+CMAKE_SOURCE_DIR = /home/doman/MachineLearning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/doman/Desktop/Software/Machinelearning/build
+CMAKE_BINARY_DIR = /home/doman/MachineLearning/build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -97,11 +86,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/local/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/doman/Desktop/Software/Machinelearning/build/CMakeFiles /home/doman/Desktop/Software/Machinelearning/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/doman/MachineLearning/build/CMakeFiles /home/doman/MachineLearning/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/doman/Desktop/Software/Machinelearning/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/doman/MachineLearning/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Geeks_ML_code
+
+# Build rule for target.
+Geeks_ML_code: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Geeks_ML_code
+.PHONY : Geeks_ML_code
+
+# fast build rule for target.
+Geeks_ML_code/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Geeks_ML_code.dir/build.make CMakeFiles/Geeks_ML_code.dir/build
+.PHONY : Geeks_ML_code/fast
+
+#=============================================================================
 # Target rules for targets named mlpack_sample
 
 # Build rule for target.
@@ -142,32 +155,59 @@ mlpack_sample/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlpack_sample.dir/build.make CMakeFiles/mlpack_sample.dir/build
 .PHONY : mlpack_sample/fast
 
-src/main.o: src/main.cpp.o
+src/Geeks_ML_code.o: src/Geeks_ML_code.cpp.o
 
-.PHONY : src/main.o
+.PHONY : src/Geeks_ML_code.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlpack_sample.dir/build.make CMakeFiles/mlpack_sample.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/Geeks_ML_code.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Geeks_ML_code.dir/build.make CMakeFiles/Geeks_ML_code.dir/src/Geeks_ML_code.cpp.o
+.PHONY : src/Geeks_ML_code.cpp.o
 
-src/main.i: src/main.cpp.i
+src/Geeks_ML_code.i: src/Geeks_ML_code.cpp.i
 
-.PHONY : src/main.i
+.PHONY : src/Geeks_ML_code.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlpack_sample.dir/build.make CMakeFiles/mlpack_sample.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/Geeks_ML_code.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Geeks_ML_code.dir/build.make CMakeFiles/Geeks_ML_code.dir/src/Geeks_ML_code.cpp.i
+.PHONY : src/Geeks_ML_code.cpp.i
 
-src/main.s: src/main.cpp.s
+src/Geeks_ML_code.s: src/Geeks_ML_code.cpp.s
 
-.PHONY : src/main.s
+.PHONY : src/Geeks_ML_code.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlpack_sample.dir/build.make CMakeFiles/mlpack_sample.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/Geeks_ML_code.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Geeks_ML_code.dir/build.make CMakeFiles/Geeks_ML_code.dir/src/Geeks_ML_code.cpp.s
+.PHONY : src/Geeks_ML_code.cpp.s
+
+src/mlpack_sample.o: src/mlpack_sample.cpp.o
+
+.PHONY : src/mlpack_sample.o
+
+# target to build an object file
+src/mlpack_sample.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlpack_sample.dir/build.make CMakeFiles/mlpack_sample.dir/src/mlpack_sample.cpp.o
+.PHONY : src/mlpack_sample.cpp.o
+
+src/mlpack_sample.i: src/mlpack_sample.cpp.i
+
+.PHONY : src/mlpack_sample.i
+
+# target to preprocess a source file
+src/mlpack_sample.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlpack_sample.dir/build.make CMakeFiles/mlpack_sample.dir/src/mlpack_sample.cpp.i
+.PHONY : src/mlpack_sample.cpp.i
+
+src/mlpack_sample.s: src/mlpack_sample.cpp.s
+
+.PHONY : src/mlpack_sample.s
+
+# target to generate assembly for a file
+src/mlpack_sample.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlpack_sample.dir/build.make CMakeFiles/mlpack_sample.dir/src/mlpack_sample.cpp.s
+.PHONY : src/mlpack_sample.cpp.s
 
 # Help Target
 help:
@@ -177,10 +217,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Geeks_ML_code"
 	@echo "... mlpack_sample"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/Geeks_ML_code.o"
+	@echo "... src/Geeks_ML_code.i"
+	@echo "... src/Geeks_ML_code.s"
+	@echo "... src/mlpack_sample.o"
+	@echo "... src/mlpack_sample.i"
+	@echo "... src/mlpack_sample.s"
 .PHONY : help
 
 
