@@ -1,0 +1,77 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MlpackSample",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Geeks_ML_code::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Geeks_ML_code-Debug-3a1fe3befe1008bb60b3.json",
+					"name" : "Geeks_ML_code",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mlpack_nearest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mlpack_nearest-Debug-b1c56394ad338e6ded68.json",
+					"name" : "mlpack_nearest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mlpack_sample::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mlpack_sample-Debug-fd4a804c9a6e3849a513.json",
+					"name" : "mlpack_sample",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/doman/MachineLearning/build",
+		"source" : "/home/doman/MachineLearning"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

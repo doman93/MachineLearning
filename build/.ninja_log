@@ -1,0 +1,13 @@
+# ninja log v5
+0	5006	0	CMakeFiles/Geeks_ML_code.dir/src/Geeks_ML_code.cpp.o	bd4862cbd202ae83
+5007	5796	0	Geeks_ML_code	7d39059923c2d44
+1	13717	0	CMakeFiles/mlpack_sample.dir/src/mlpack_sample.cpp.o	70a312159ada4eaa
+0	13978	0	CMakeFiles/mlpack_nearest.dir/src/mlpack_nearest.cpp.o	676a35c6fcd20cfe
+13723	14720	0	mlpack_sample	c77b60b375e5ff89
+13979	14850	0	mlpack_nearest	357b187bb4b8a7c9
+18	12892	0	CMakeFiles/mlpack_nearest.dir/src/mlpack_nearest.cpp.o	676a35c6fcd20cfe
+12893	13484	0	mlpack_nearest	357b187bb4b8a7c9
+11	9381	0	CMakeFiles/mlpack_nearest.dir/src/mlpack_nearest.cpp.o	676a35c6fcd20cfe
+9382	9937	0	mlpack_nearest	357b187bb4b8a7c9
+5	9590	0	CMakeFiles/mlpack_nearest.dir/src/mlpack_nearest.cpp.o	676a35c6fcd20cfe
+9590	10285	0	mlpack_nearest	357b187bb4b8a7c9

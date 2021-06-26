@@ -61,3 +61,6 @@ target_link_libraries(Geeks_ML_code ${MLPACK_LIBRARY})
 
 add_executable(mlpack_sample  src/mlpack_sample.cpp)
 target_link_libraries(mlpack_sample ${MLPACK_LIBRARY} ${ARMADILLO_LIBRARIES} )
+
+add_executable(mlpack_nearest  src/mlpack_nearest.cpp)
+target_link_libraries(mlpack_nearest ${MLPACK_LIBRARY} ${ARMADILLO_LIBRARIES} )

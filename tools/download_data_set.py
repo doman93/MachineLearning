@@ -128,7 +128,7 @@ def salary_dataset():
   progress_bar("Salary_Data.csv", salary)
   
 def all_datasets():
-  mnist_dataset()
+  #mnist_dataset()
   electricity_consumption_dataset()
   stock_exchange_dataset()
   iris_dataset()

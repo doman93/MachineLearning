@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/doman/MachineLearning/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-8 -I../include -I/usr/local/include/eigen3 -I/usr/include/eigen3/eigen3 -I/usr/include/OGRE -I/usr/local/include/OGRE -I/usr/local/include/OGRE/Paging -g   -Wall -Wextra -std=gnu++17 -o CMakeFiles/mlpack_nearest.dir/src/mlpack_nearest.cpp.o -c /home/doman/MachineLearning/src/mlpack_nearest.cpp",
+  "file": "/home/doman/MachineLearning/src/mlpack_nearest.cpp"
+},
+{
+  "directory": "/home/doman/MachineLearning/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-8 -I../include -I/usr/local/include/eigen3 -I/usr/include/eigen3/eigen3 -I/usr/include/OGRE -I/usr/local/include/OGRE -I/usr/local/include/OGRE/Paging -g   -Wall -Wextra -std=gnu++17 -o CMakeFiles/Geeks_ML_code.dir/src/Geeks_ML_code.cpp.o -c /home/doman/MachineLearning/src/Geeks_ML_code.cpp",
+  "file": "/home/doman/MachineLearning/src/Geeks_ML_code.cpp"
+},
+{
+  "directory": "/home/doman/MachineLearning/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-8 -I../include -I/usr/local/include/eigen3 -I/usr/include/eigen3/eigen3 -I/usr/include/OGRE -I/usr/local/include/OGRE -I/usr/local/include/OGRE/Paging -g   -Wall -Wextra -std=gnu++17 -o CMakeFiles/mlpack_sample.dir/src/mlpack_sample.cpp.o -c /home/doman/MachineLearning/src/mlpack_sample.cpp",
+  "file": "/home/doman/MachineLearning/src/mlpack_sample.cpp"
+}
+]
